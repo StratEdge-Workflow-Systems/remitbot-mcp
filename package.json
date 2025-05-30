@@ -1,0 +1,21 @@
+{
+  "name": "@stratedge/remitbot-mcp",
+  "version": "2.4.0",
+  "description": "Model Context Protocol (MCP) policy gate and deterministic pre-settlement check for agent-to-agent payments.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "remitbot-mcp": "./index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "agent-payments", "x402", "payment-controls", "remitbot"],
+  "homepage": "https://remitbot.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StratEdge-Workflow-Systems/remitbot-mcp.git"
+  },
+  "author": "StratEdge Workflow Systems LLC <info@stratedgeworkflow.com> (https://www.stratedgeworkflow.com)",
+  "license": "MIT"
+}
